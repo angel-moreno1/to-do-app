@@ -1,0 +1,45 @@
+.title {
+    color: rgb(68, 137, 246)
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    background-color: #f3f3f3;
+}
+
+.input {
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    color: blue
+}
+
+.todosContainer {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.error {
+    margin: 0.8rem 0;
+    font-size: 1rem;
+    color: rgb(158, 158, 158)
+}
+
+.button {
+    padding: 0.4rem 0.8rem;
+    background-color: rgb(60, 177, 255);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-top: 0.9rem
+}

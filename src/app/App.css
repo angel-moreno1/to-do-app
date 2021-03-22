@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+h4 { transition: color 500ms; cursor: pointer; user-select: none; margin: 0; }
+.completed {
+  color: rgba(28, 192, 22, 0.829);
+  text-decoration: line-through;
+}
+
+.pending {
+  color: rgb(253, 179, 94)
+}
